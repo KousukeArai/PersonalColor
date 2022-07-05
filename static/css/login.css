@@ -11368,7 +11368,7 @@ form {
   letter-spacing: 0.05em;
   text-align: center;
   text-transform: uppercase;
-  transition: background 0.3s ease-in-out;
+  transition:  0.3s ease-in-out;
   width: 100%;
 }
 
