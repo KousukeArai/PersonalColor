@@ -23,17 +23,17 @@
                         <li class="nav-item"><a class="nav-link" href="/introduction">アプリ紹介</a></li>
                         <li class="nav-item"><a class="nav-link" href="/form">フォーム</a></li>
                         <li class="nav-item"><a class="nav-link" href="/login">ログイン</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">ログアウト</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/logout">ログアウト</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Header - set the background image for the header in the line below-->
-        <header class="py-5 bg-image-full" style="background-image: url('{% static 'img/roses-g44a7cef51_1920.jpg' %}')">
+        <header class="py-5 bg-image-full" style="background-image: url('{% static 'img/new-roses-g44a7cef51_1920.jpg' %}')">
             <div class="text-center my-5">
                 <img class="img-fluid rounded-circle mb-4" src="{% static 'img/clover.jpg' %}" alt="..." />
                 <h1 class="text-white fs-3 fw-bolder">Personal Color</h1>
-                <p class="text-white-50 mb-0">あなたの顔写真からパーソナルカラーを診断！</p>
+                <h4 class="text-white-50 mb-0">あなたの顔写真からパーソナルカラーを診断！</h4>
             </div>
         </header>
         <!-- Content section-->
@@ -72,17 +72,17 @@
                     <div class="col-lg-6">
                         <h2>さっそく診断してみましょう</h2>
                         <p class="lead">パーソナルカラーは春・夏・秋・冬の4つの季節タイプに分かれています。</p>
-                        <p class="mb-0">初めての方はもちろん、今までパーソナルカラー診断を受けたり、ネットや雑誌で自己診断しても、何だか結果がしっくりこないと感じている方は、ぜひチェックしてみてください。</p>
+                        <p class="mb-0">初めての方はもちろん、今までパーソナルカラー診断を受けたり、ネットや雑誌で自己診断しても、何だか結果がしっくりこないと感じている方は、ぜひチェックしてみてください。</p><hr>
                     </div>
                 </div>
             </div>
-            <div class="diagnose">
+            <div class="text-center">
                 <label>性別</label>
                 <label for="r_female">女性 <input id="r_female" type="radio" name="gender" value="女性"></label>
                 <label for="r_male">男性 <input id="r_male" type="radio" name="gender" value="男性"></label>
                 <label for="r_others">その他 <input id="r_others" type="radio" name="gender" value="その他"></label>
             </div>
-            <div class="diagnose">
+            <div class="text-center">
                 <form method="post" enctype="multipart/form-data">
                     <input type="file" name="avatar"><br><br>
                     <button type="submit">送信</button>
