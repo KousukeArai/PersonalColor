@@ -11289,9 +11289,6 @@ textarea.form-control-lg {
 .bg-image-full {
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: top;
-  background-size:contain;                               /* 画像のサイズを指定    */
-  width:100%;                                            /* 横幅のサイズを指定    */
-  height:100%;
+  background-position: center;
+  background-size: cover;
 }
-

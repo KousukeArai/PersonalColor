@@ -11292,22 +11292,6 @@ textarea.form-control-lg {
   background-position: center;
   background-size: cover;
 }
-.season-vw{
-	display: flex;
-	flex-wrap:wrap;
-  float: left;
-  margin-bottom: 50px;
-	
-}
-.season-vw li {
-	width: calc(100%/4);/*←画像を横に4つ並べる場合*/
-	padding:0;
-	box-sizing:border-box;
-}
-.season-vw li img {
-	max-width:100%; /*画像のはみだしを防ぐ*/
-	height: auto; /*画像の縦横比を維持 */
-}
 .diagnose {
   text-align: center;
 }
@@ -11365,4 +11349,23 @@ textarea.form-control-lg {
   line-height:1.8rem;
   font-size:0.8rem;
   color:#666666;
+}
+.season-vw{
+	display: flex;
+	flex-wrap:wrap;
+  float: left;
+  margin-bottom: 50px;
+	
+}
+.season-vw li {
+	width: calc(100%/4);/*←画像を横に4つ並べる場合*/
+	padding:0;
+	box-sizing:border-box;
+}
+.season-vw li img {
+	max-width:100%; /*画像のはみだしを防ぐ*/
+	height: auto; /*画像の縦横比を維持 */
+}
+.container img {
+  margin-left: 0px;
 }
