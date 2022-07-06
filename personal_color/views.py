@@ -3,8 +3,8 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from django.views import generic
 #from .forms import DocumentForm
-from .models import Document
-import cv2
+#from .models import Document
+#import cv2
 from django.conf import settings
 
 # def index(request):
