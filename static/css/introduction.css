@@ -11366,6 +11366,3 @@ textarea.form-control-lg {
 	max-width:100%; /*画像のはみだしを防ぐ*/
 	height: auto; /*画像の縦横比を維持 */
 }
-.container img {
-  margin-left: 0px;
-}
