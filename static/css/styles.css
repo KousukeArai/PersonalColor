@@ -11292,6 +11292,12 @@ textarea.form-control-lg {
   background-position: center;
   background-size: cover;
 }
+.bg-image-full-2 {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: contain;
+}
 .color-vw {
   display: flex;
   flex-wrap:wrap;
