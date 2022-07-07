@@ -11292,3 +11292,110 @@ textarea.form-control-lg {
   background-position: center;
   background-size: cover;
 }
+.color-vw {
+  display: flex;
+  flex-wrap:wrap;
+  margin-left: 90px;
+}
+.color-vw li {
+  width: calc(100%/3);/*←画像を横に3つ並べる場合*/
+  box-sizing:border-box;
+}
+.color-vw li img {
+  max-width:100%; /*画像のはみだしを防ぐ*/
+  height: auto; /*画像の縦横比を維持 */
+}
+
+.col-lg-6 h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.clothes-vw {
+  display: flex;
+  flex-wrap:wrap;
+  margin: 50px;
+}
+.clothes-vw li {
+  width: calc(100%/3);/*←画像を横に3つ並べる場合*/
+  box-sizing:border-box;
+}
+.clothes-vw li img {
+  max-width:100%; /*画像のはみだしを防ぐ*/
+  height: auto; /*画像の縦横比を維持 */
+}
+.season-vw{
+	display: flex;
+	flex-wrap:wrap;
+  float: left;
+  margin-bottom: 50px;
+	
+}
+.season-vw li {
+	width: calc(100%/4);/*←画像を横に4つ並べる場合*/
+	padding:0;
+	box-sizing:border-box;
+}
+.season-vw li img {
+	max-width:100%; /*画像のはみだしを防ぐ*/
+	height: auto; /*画像の縦横比を維持 */
+}
+.diagnose {
+  text-align: center;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex side-txt {
+  width: 100%;
+  font-size: large;
+}
+/* container */
+.wrapper{
+  width:100%;
+}
+.wrapper .container{
+  max-width:1000px;
+  margin:0px auto;
+  padding:80px 0px;
+}
+/* content */
+.wrapper .content .heading{
+  margin:0px 0px 40px 0px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .wrapper .content .list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+}
+.wrapper .content .list-item {
+  margin:50px 0px;
+  padding:0px 50px;
+  text-align:center;
+}
+@media (min-width: 992px) {
+  .wrapper .content .list-item {
+      margin:0px;
+      width:calc(100% / 3);
+  }
+}
+.wrapper .content .list-item .image{
+  display:block;
+  width:100%;
+  max-width:300px;
+  margin:0px auto 20px auto;
+  border-radius:60%;
+}
+.wrapper .content .list-item .text{
+  line-height:1.8rem;
+  font-size:0.8rem;
+  color:#666666;
+}
