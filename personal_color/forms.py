@@ -9,9 +9,9 @@ from django import forms
 
 class InquiryForm(forms.Form):
     CHOICE = {
+    ('0','アプリについて'),
     ('1','商品について'),
-    ('2','アプリについて'),
-    ('3','その他について'),
+    ('2','その他について'),
 }
 
     name = forms.CharField(label='お名前', max_length=30)
